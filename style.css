@@ -1,0 +1,96 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #E5E6E6;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+
+
+.button{
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 15px 35px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: .4s ease;
+   
+}
+
+.main-wrapper{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-title{
+    font-size: 100px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.title-inner{
+    padding-top: 100px;
+}
+
+.info-wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.info-wrapper div{
+    width: 33.333%;
+}
+
+h5{
+    font-size: 22px;
+}
+
+.title-aside{
+    font-size: 22px;
+    border-right: 1px solid black;
+    padding: 30px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg); /* Rotates text to make it flow bottom to top */
+    /* text-orientation: upright; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    text-align: center;
+}
+
+.title-aside span{
+    font-weight: 900;
+}
+
+
+/* about wrapper */
+.about-wrapper{
+    height: 100vh;
+}
